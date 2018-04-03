@@ -1,8 +1,25 @@
-ul {
+body {
+  font-family: arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/*NAVBAR*/
+
+.nav {
+  margin-top: 15px;
+}
+.nav ul {
   list-style-type: none;
-  margin: 0;
+  margin:0;
   padding:0;
 }
-li {
-  display:inline;
+.nav li {
+  float: right;
 }
