@@ -1,14 +1,10 @@
-* {
-  margin: 0;
-  padding:0;
-}
 
 body {
   font-family: Arial, sans-serif;
 }
 
 a {
-  display: block;
+  display: inline-block;
 }
 
 a:link, a:visited{
@@ -25,34 +21,86 @@ ul {
 
 li {
   display: inline;
-  padding: 15px;
   float: right;
+  padding: 15px;
 }
 
 /*Navbar*/
-.navbar {
-  position: fixed;
+header {
+  position: absolute;
   top:0;
   width: 100%;
   float: right;
+  display: block;
+  left: 0;
+}
+
+.top-left {
+  float:left;
+  padding-left: 0px;
+}
+
+.top-right {
+  float:right;
+  padding-right: 0px;
+}
+
+#grid {
+  height: 17px;
+  width: 17px;
+
 }
 /*Main*/
 
 .center {
-  padding-top: 200px;
-  justify-content: center;
-  margin:auto;
-  width: 30%;
+padding-top: 200px;
+width: 100%
+margin: 0 auto;
+text-align: center;
+}
+
+
+.searchbar{
+  width: 100%
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+}
+#search {
+  width: 600px;
+  height: 28px;
+}
+
+.submit-buttons {
+padding: 15px;
+margin: 0 auto;
+text-align: center;
+}
+
+#submit-box-left {
+
+}
+#submit-box-right{
+
 }
 /*Footer*/
 footer {
   position: fixed;
+  display: block;
   bottom: 0;
+  height: 40px;
   width:100%;
+  background-color: #F2F2F2;
+  padding:0px 0px 15px 0px;
+  left:0;
 }
+
 .bottom-right{
   float: right;
+  line-height: 0px;
 }
 .bottom-left{
   float: left;
+  padding-left: 0;
+  line-height: 0px;
 }

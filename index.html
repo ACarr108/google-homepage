@@ -10,22 +10,29 @@
 <body>
 
 <!--Navigation-->
-<div class="navbar">
-  <ul>
+<header>
+  <ul class="top-left">
     <li><a href="#">About</a></li>
     <li><a href="#">Store</a></li>
-    <li><a href="#">Gmail</a></li>
+  </ul>
+  <ul class="top-right">
+    <li><a href="#" id="login">Login</li>
+    <li><a><img href="#" src="Images/grid.png" alt="apps" id="grid"></a>
     <li><a href="#">Images</a></li>
-</div>
+    <li><a href="#">Gmail</a></li>
+  </ul>
+</header>
 
 <!-- Center -->
 <div class="center">
-    <img id="logo" src= "Images/googlelogo.jpg" alt="Google Logo">
-    <form class="search">
-      <input type="text"><br>
-      <input type="submit" value="Google Search">
-      <input type="submit" value="I'm Feeling Lucky!">
-    </form>
+    <img src= "Images/googlelogo.png" alt="Google Logo" id="logo">
+</div>
+<div class="searchbar">
+      <input type="text" id="search"><br>
+</div>
+<div class="submit-buttons">
+      <input type="submit" value="Google Search" id="submit-box-left">
+      <input type="submit" value="I'm Feeling Lucky!" id="submit-box-right">
 </div>
 
 </body>
