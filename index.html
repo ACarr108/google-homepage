@@ -10,18 +10,28 @@
 <body>
 
 <!--Navigation-->
-<header>
-  <ul class="top-left">
-    <li><a href="#">About</a></li>
-    <li><a href="#">Store</a></li>
-  </ul>
-  <ul class="top-right">
-    <li><a href="#" id="login">Login</li>
-    <li><a><img href="#" src="Images/grid.png" alt="apps" id="grid"></a>
-    <li><a href="#">Images</a></li>
-    <li><a href="#">Gmail</a></li>
-  </ul>
-</header>
+<div class="container">
+  <div class="topleft">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a><li>
+      </ul>
+  </div>
+  <div class="topright">
+    <ul>
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+    </ul>
+    <div class="login">
+      <button id="login">Login</button>
+    </div>
+    <div class="grid">
+      <a><img href="#" src="Images/grid.png" id=grid></a>
+    </div>
+
+  </div>
+
+</div>
 
 <!-- Center -->
 <div class="center">
@@ -32,7 +42,7 @@
 </div>
 <div class="submit-buttons">
       <input type="submit" value="Google Search" id="submit-box-left">
-      <input type="submit" value="I'm Feeling Lucky!" id="submit-box-right">
+      <input type="submit" value="I'm Feeling Lucky" id="submit-box-right">
 </div>
 
 </body>

@@ -16,49 +16,89 @@ a:hover{
 }
 
 ul {
+  display:inline-block;
   list-style-type: none;
 }
 
 li {
-  display: inline;
-  float: right;
-  padding: 15px;
+  display: inline-block;
+  padding-right: 20px;
 }
-
+button {
+  display:inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color:white;
+  background-color: #4285f4;
+  border-radius: 4px;
+  padding: 7px 9px;
+  opacity: .70;
+  border: 1px solid #f2f2f2;
+}
 /*Navbar*/
-header {
-  position: absolute;
-  top:0;
+.container {
+  position: fixed;
+  top:0px;
+  padding-top: 0px;
   width: 100%;
-  float: right;
-  display: block;
+  height: 80px;
+  display: inline-block;
   left: 0;
 }
 
-.top-left {
+.topleft {
   float:left;
+  margin-top: 15px;
+  margin-left: 0px;
   padding-left: 0px;
 }
 
-.top-right {
+.topright {
   float:right;
-  padding-right: 0px;
+  display:inline-block;
+  margin-top: 15px;
+  padding-right:25px;
+}
+
+.grid {
+  float:right;
+  display:inline-block;
+  margin-top: 10px;
+  margin-right:25px;
 }
 
 #grid {
-  height: 17px;
-  width: 17px;
+  height: 18px;
+  width: 18px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  display:inline-block;
+}
 
+.login {
+  display: inline-block;
+  float:right;
+  margin-top: 4px;
+}
+
+#login {
+  margin-top: 5px;
+  display: inline-block;
 }
 /*Main*/
 
 .center {
-padding-top: 200px;
+padding-top: 225px;
 width: 100%
 margin: 0 auto;
 text-align: center;
 }
 
+#logo {
+
+}
 
 .searchbar{
   width: 100%
@@ -66,29 +106,39 @@ text-align: center;
   text-align: center;
   padding-top: 15px;
 }
+
 #search {
   width: 600px;
   height: 28px;
+  box-shadow:0 8px 12px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .submit-buttons {
-padding: 15px;
+padding: 20px;
 margin: 0 auto;
 text-align: center;
 }
 
 #submit-box-left {
-
+  margin-right: 20px;
+  padding: 10px 14px 10px 14px;
+  background-color: #F2F2F2;
+  font-weight: bold;
+  opacity: .60;
 }
 #submit-box-right{
-
+  margin-left: 20px;
+  padding: 10px 14px 10px 14px;
+  background-color: #F2F2F2;
+  font-weight: bold;
+  opacity: .60;
 }
 /*Footer*/
 footer {
   position: fixed;
   display: block;
   bottom: 0;
-  height: 40px;
+  height: 25px;
   width:100%;
   background-color: #F2F2F2;
   padding:0px 0px 15px 0px;
@@ -97,10 +147,14 @@ footer {
 
 .bottom-right{
   float: right;
-  line-height: 0px;
+  padding-right: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  opacity: .60;
+
 }
 .bottom-left{
   float: left;
-  padding-left: 0;
-  line-height: 0px;
+  padding-left: 15px;
+  opacity: .60;
 }
